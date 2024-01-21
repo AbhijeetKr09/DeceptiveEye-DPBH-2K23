@@ -15,8 +15,9 @@ def main():
     if request.method == 'POST':
         output = []
         data = request.get_json().get('tokens')
-
+        print(data)
         for token in data:
+            print(token)
             result = presence_classifier.predict(presence_vect.transform([token]))
             if result == 'Dark':
                 cat = category_classifier.predict(category_vect.transform([token]))
