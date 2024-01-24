@@ -6,8 +6,9 @@ from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn import metrics
 from joblib import dump
-
 selected_classification = "Pattern Category"
+
+
 
 df = pd.read_csv('train_classifier/dark_patterns.csv')
 
