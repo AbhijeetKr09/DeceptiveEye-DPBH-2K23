@@ -20,10 +20,11 @@ the extension has been successfully installed!
 Research Paper
 Mathur, A., Acar, G., Friedman, M. J., Lucherini, E., Mayer, J., Chetty, M., & Narayanan, A. (2019). Dark Patterns at Scale: Findings from a Crawl of 11K Shopping Websites. Proceedings of the ACM on Human-Computer Interaction, 3(CSCW), 81.
 
-TEAM NAME
+Team Name: InnovativeX
+Team Members Name :
 Abhijeet Kumar
-Manhvi Yadav
 Iqbal Ansari
 Harshita Sharma
+Manhvi Yadav
 Shivam Agarwal
 
