@@ -49,6 +49,7 @@ function scrape() {
         if (json.result[i] !== "Not Dark") {
           highlight(elements[element_index], json.result[i]);
           dp_count++;
+
         }
         element_index++;
       }

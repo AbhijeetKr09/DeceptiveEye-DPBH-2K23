@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Insite",
-    "version": "1.2",
-    "description": "Recognize dark patterns in online stores",
+    "name": "Deceptive Eye",
+    "version": "1.3",
+    "description": "Recognize dark patterns in E-commerce",
     "action": {
         "default_popup": "popup.html"
     },
