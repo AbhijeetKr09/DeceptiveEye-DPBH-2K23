@@ -6,6 +6,7 @@ With the reference of the research paper *Dark Patterns at Scale: Findings from 
 
 ## Tech Stack
 The Chrome Extension front-end that scrapes the active web page is written in Javascript. For the back-end, a Python server running Flask interfaces Bernoulli Naive Bayes models to classify tokens of text sent to it. To train these algorithms, datasets from Princeton University researchers along with manually annotated datasets were used.
+
 ## Installation
 `pip install requirement.txt`
 
@@ -16,15 +17,7 @@ Install the Chrome extension:
 4. Navigate to the repository directory, and select the folder `app` for installation
 5. Ensure that the extension is enabled.
 the extension has been successfully installed!
+
 ## Reference
 Research Paper
 Mathur, A., Acar, G., Friedman, M. J., Lucherini, E., Mayer, J., Chetty, M., & Narayanan, A. (2019). Dark Patterns at Scale: Findings from a Crawl of 11K Shopping Websites. Proceedings of the ACM on Human-Computer Interaction, 3(CSCW), 81.
-
-Team Name: InnovativeX
-Team Members Name :
-Abhijeet Kumar
-Iqbal Ansari
-Harshita Sharma
-Manhvi Yadav
-Shivam Agarwal
-
