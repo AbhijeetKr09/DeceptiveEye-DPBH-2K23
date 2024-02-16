@@ -19,7 +19,7 @@ def main():
         for token in data:
             print(token)
             result = presence_classifier.predict(presence_vect.transform([token]))
-            if result == 'Dark':
+            if result == 'Dark':    
                 cat = category_classifier.predict(category_vect.transform([token]))
                 output.append(cat[0])
             else:
