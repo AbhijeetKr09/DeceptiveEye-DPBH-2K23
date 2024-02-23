@@ -1,15 +1,19 @@
-# extract text from image 
 from PIL import Image
 import pytesseract
-import cv2
-import numpy as np
+import os
 
-# Load the image
-filename = '<image name>.png'
-img = np.array(Image.open(filename))
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
-# Perform OCR on the image
-text = pytesseract.image_to_string(img)
+cwd = os.getcwd()
+dir_path = os.path.join(cwd, "Modification")
+img_folder_path = os.path.join(dir_path, "images")
 
-# Print the extracted text
-print(text)
+for file in os.listdir(img_folder_path):
+    print(f"Processing {file}...")
+    img_path = os.path.join(img_folder_path, file)
+
+    img = Image.open(img_path)
+
+    text = pytesseract.image_to_string(img)
+
+    print(f"Text extracted from {file}:\n{text}\n")
